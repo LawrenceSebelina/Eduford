@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+        - Primary meta tags
+    -->
+    <title>Eduford</title>
+    <meta name="title" content="Eduford">
+    <meta name="description" content="Eduford World's Biggest University">
+    <meta name="author" content="Lawrence Sebelina">
+
+    <!-- 
+        - Favicon
+    -->
+
+    <!-- <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon"> -->
+
+    <!--  
+        Fontawesome Link
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--  
+        Custom CSS
+    -->
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--  
+        Google Fonts Links
+    -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!--  
+        Header
+    -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">
+                <img src="assets/images/logo.png" alt="Logo">
+            </a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Courses</h1>
+    </section>
+
+    <!--  
+        Course
+    -->
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, earum.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptatum quos ipsum facilis
+                    at nihil nam adipisci eius sit nesciunt.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptatum quos ipsum facilis
+                    at nihil nam adipisci eius sit nesciunt.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptatum quos ipsum facilis
+                    at nihil nam adipisci eius sit nesciunt.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--  
+        Facilities
+    -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, reprehenderit.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="assets/images/library.png" alt="facilities">
+
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus harum molestias impedit cupiditate
+                    nesciunt quaerat excepturi nobis error dolorum veritatis!</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="assets/images/basketball.png" alt="facilities">
+
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus harum molestias impedit cupiditate
+                    nesciunt quaerat excepturi nobis error dolorum veritatis!</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="assets/images/cafeteria.png" alt="facilities">
+
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus harum molestias impedit cupiditate
+                    nesciunt quaerat excepturi nobis error dolorum veritatis!</p>
+            </div>
+        </div>
+    </section>
+
+    <!--  
+        Footer
+    -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga suscipit inventore nostrum at pariatur ducimus
+            <br>
+            officiis itaque distinctio dolor delectus!
+        </p>
+
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter-square"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="far fa-heart"></i> by Lawrence Sebelina</p>
+    </section>
+
+    <script>
+        const navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>
